@@ -68,8 +68,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Installation
 
 composer require laravel ui 
+
 php artisan ui vue --auth
+
 composer require laravel-frontend-presets/argon
+
 php artisan ui argon
+
 composer dump-autoload
+
 php artisan migrate --seed
